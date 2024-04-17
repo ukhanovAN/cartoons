@@ -1,0 +1,102 @@
+.head{     /*Заголовок основной*/
+    color: rgb(45, 45, 45);
+    font-family: Vetrino;
+    font-size: 40pt;
+    text-align: justify;
+    line-height: 1;
+    padding: 3%;
+    background-color: rgb(184, 196, 250);
+}
+.afterHead{    /*Текст после заголовка*/
+    font-family: Alethia Pro;
+    color: rgb(45, 45, 45);
+    font-size: 26px;
+    text-align: justify;
+    padding-left: 10%;
+}
+.usualHead{    /*Цитата*/
+    font-family: Vetrino;
+    color: rgb(45, 45, 45);
+    font-size: 26px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgb(184, 196, 250);
+    border-style: dotted;
+    border-color: rgb(40, 65, 179);
+}
+.usualHeadSecond{
+    font-family: Vetrino;
+    color: rgb(45, 45, 45);
+    font-size: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(184, 196, 250);
+}
+.usualUs{   /*Классический текст*/
+    font-family: Alethia Pro;
+    color: rgb(45, 45, 45);
+    font-size: 20px;
+    text-align: center;
+}
+.usualUsJustify{
+    font-family: Alethia Pro;
+    color: rgb(45, 45, 45);
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.7;
+    text-indent: 1.5ch;
+}
+.underPic{   /*Подпись к картинкам*/
+    font-family: Alethia Pro;
+    color: rgb(45, 45, 45);
+    font-size: 16px;
+    text-align: center;
+}
+.underPic:hover{
+    font-size: 20px;
+}
+.fortaskitalic{
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(45, 45, 45);
+    font-size: 1vh;
+    text-align: center;
+}
+.fortaskweight{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(45, 45, 45);
+    font-size: 1vh;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Vetrino';
+    font-style: normal;
+    src: local('Vetrino');
+}
+@font-face {
+    font-family: 'Alethia Pro';
+    src: local('Alethia Pro');
+}
+.flex{  /*Для блоков*/
+    display:flex;
+    justify-content: center;
+    vertical-align:middle;
+}
+img.usual{
+    width: 40rex;
+    border-radius: 4%;
+    text-align: center;
+}
+img.usualmini{
+    width: 25rex;
+    border-radius: 4%;
+    text-align: center;
+}
+img.back{
+    width: 3%;
+    margin-left: 95%;
+}
